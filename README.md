@@ -19,6 +19,12 @@ Content discussed :
 alt="Video Tutorial for  Angular Material Data Table-Paging,Sorting,Filtering" width="500" height="400" border="10" /></a>
 
 
+# Complete Angular Material Tutorial
+1. https://goo.gl/XmR6Li - Form Design.  
+2. https://goo.gl/3VQn29 - Firebase CRUD.
+3. https://goo.gl/5h59y5 - Angular Material Data Table [ this one ]
+
+
 # All Video Tutorial Series
 | Series        | Video PlayList          |
 | ------------- |:-------------:|
