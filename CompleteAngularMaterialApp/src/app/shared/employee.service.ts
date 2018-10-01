@@ -52,7 +52,7 @@ export class EmployeeService {
       city: employee.city,
       gender: employee.gender,
       department: employee.department,
-      hireDate: this.datePipe.transform(employee.hireDate, 'yyyy-MM-dd'),
+      hireDate: employee.hireDate == "" ? "" : this.datePipe.transform(employee.hireDate, 'yyyy-MM-dd'),
       isPermanent: employee.isPermanent
     });
   }
@@ -66,7 +66,7 @@ export class EmployeeService {
         city: employee.city,
         gender: employee.gender,
         department: employee.department,
-        hireDate: this.datePipe.transform(employee.hireDate, 'yyyy-MM-dd'),
+        hireDate: employee.hireDate == "" ? "" : this.datePipe.transform(employee.hireDate, 'yyyy-MM-dd'),
         isPermanent: employee.isPermanent
       });
   }
